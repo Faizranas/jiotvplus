@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/jiotvplus//_next/:path+",
+        "destination": "/jiotvplus/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
